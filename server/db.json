@@ -1,0 +1,59 @@
+{
+    "lamps": [
+        {
+            "id":"1",
+            "title" : "some title",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est earum ratione quae voluptatibus porro aliquam distinctio sapiente expedita corrupti omnis, iste commodi aperiam quaerat odio aspernatur sunt facilis, pariatur aliquid maiores animi illum dolorum necessitatibus deserunt eaque. Dignissimos repellat ducimus doloremque veniam? Ad amet consectetur voluptas. Temporibus eveniet quaerat commodi.",
+            "picture1":"url",
+            "picture2":"url",
+            "picture3":"url",
+            "picture4":"url",
+            "price": "50 lv"
+
+        }, 
+        {
+            "id":"2",
+            "title" : "some title",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est earum ratione quae voluptatibus porro aliquam distinctio sapiente expedita corrupti omnis, iste commodi aperiam quaerat odio aspernatur sunt facilis, pariatur aliquid maiores animi illum dolorum necessitatibus deserunt eaque. Dignissimos repellat ducimus doloremque veniam? Ad amet consectetur voluptas. Temporibus eveniet quaerat commodi.",
+            "picture1":"url",
+            "picture2":"url",
+            "picture3":"url",
+            "picture4":"url",
+            "price": "50 lv"
+
+        }, 
+        {
+            "id":"3",
+            "title" : "some title",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est earum ratione quae voluptatibus porro aliquam distinctio sapiente expedita corrupti omnis, iste commodi aperiam quaerat odio aspernatur sunt facilis, pariatur aliquid maiores animi illum dolorum necessitatibus deserunt eaque. Dignissimos repellat ducimus doloremque veniam? Ad amet consectetur voluptas. Temporibus eveniet quaerat commodi.",
+            "picture1":"url",
+            "picture2":"url",
+            "picture3":"url",
+            "picture4":"url",
+            "price": "50 lv"
+
+        }, 
+        {
+            "id":"4",
+            "title" : "some title",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est earum ratione quae voluptatibus porro aliquam distinctio sapiente expedita corrupti omnis, iste commodi aperiam quaerat odio aspernatur sunt facilis, pariatur aliquid maiores animi illum dolorum necessitatibus deserunt eaque. Dignissimos repellat ducimus doloremque veniam? Ad amet consectetur voluptas. Temporibus eveniet quaerat commodi.",
+            "picture1":"url",
+            "picture2":"url",
+            "picture3":"url",
+            "picture4":"url",
+            "price": "50 lv"
+
+        },
+        {
+            "id":"5",
+            "title" : "some title",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est earum ratione quae voluptatibus porro aliquam distinctio sapiente expedita corrupti omnis, iste commodi aperiam quaerat odio aspernatur sunt facilis, pariatur aliquid maiores animi illum dolorum necessitatibus deserunt eaque. Dignissimos repellat ducimus doloremque veniam? Ad amet consectetur voluptas. Temporibus eveniet quaerat commodi.",
+            "picture1":"url",
+            "picture2":"url",
+            "picture3":"url",
+            "picture4":"url",
+            "price": "50 lv"
+
+        }
+    ]
+}
