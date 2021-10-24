@@ -1,0 +1,116 @@
+.details{
+    display: flex;
+    flex-flow: column wrap;
+    padding: 9%;
+}
+
+.detail-images{
+    width: 100%;
+    padding: 3%;
+    margin: 0% auto;
+
+}
+
+.details-image-container{
+    width: 100%;
+    margin-bottom: 10%;
+    border: 2px solid #008289;
+    padding: 3%;
+}
+
+.details-image-container img{
+    width: 100%;
+}
+
+.description-title{
+    order: -1;
+}
+
+.price-art-number{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.order-button{
+    margin-top: 5%;
+    margin-right: auto;
+}
+
+@media (min-width: 800px){
+    .details{
+        display: flex;
+        flex-flow: row wrap;
+        padding: 9%;
+        justify-content: space-between;
+        margin-bottom: 0;
+    }
+
+    .detail-images{
+        width: 45%;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        /* border: 2px solid #008289; */
+        margin: 0;
+    }
+    
+    .details-image-container{
+        width: 100%;
+        margin-bottom: 10%;
+        border: 2px solid #008289;
+        /* padding: 3%; */
+    }
+    
+    .details-image-container img{
+        width: 100%;
+    }
+    
+    .details-description{
+        width: 45%;
+    }
+
+    @media(min-width: 1000px){
+    .details{
+        display: flex;
+        flex-flow: row wrap;
+        padding: 9%;
+        justify-content: space-between;
+        margin-bottom: 0;
+    }
+    
+    .detail-images{
+        width: 50%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        height: 45%;
+        /* align-items: flex-start; */
+        /* border: 2px solid #008289; */
+        margin: 0;
+        padding: 0;
+    }
+    
+    .details-image-container{
+        width: 48%;
+        margin-bottom: 10%;
+        border: 2px solid #008289;
+        /* padding: 3%; */
+    }
+    }
+    
+    .price-art-number{
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        margin-bottom: 5%;
+    }
+
+    .price-art-number p{
+        margin-bottom: 2%;
+    }
+    
+   
+
+}

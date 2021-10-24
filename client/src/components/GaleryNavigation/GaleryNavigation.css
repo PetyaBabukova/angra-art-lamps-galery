@@ -1,0 +1,9 @@
+.galery-navigation{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.main-tittle{
+    width: 100%;
+}

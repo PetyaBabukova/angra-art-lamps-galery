@@ -1,0 +1,24 @@
+footer{
+    padding: 0 5% 5%;
+    margin: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fb-logo-container,
+.instagram-logo-container{
+    width: 1%;
+    font-size: 3em;
+    color: #007ACC;
+}
+
+.fa-facebook-square{
+    color: #007ACC;
+}
+
+.all-rights{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #008289;
+}

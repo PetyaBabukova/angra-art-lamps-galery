@@ -1,0 +1,40 @@
+.product-card-container{
+    border: 3px solid #008289;
+    width: 90%;
+    padding: 2%;
+    margin: 4% auto;
+    background: #FFFBAB;
+    text-decoration: none;
+    color: black;
+}
+
+.product-card-image-container{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.product-card-image-container img{
+    width: 100%;
+}
+
+.product-card-tittle{
+    font-size: 1.2em;
+    margin-bottom: 3%;
+}
+
+.product-card-price{
+    margin-top: 2%;
+}
+
+@media (min-width: 800px){
+
+
+    .adress{
+        padding: 0.8% 10%;
+    }
+
+    main .product-card-container{
+        width: 27%;
+        margin: 3%;
+    }
+}

@@ -1,0 +1,14 @@
+main .input-form{
+    max-width: 60%;
+    margin: 0.8rem auto;
+}
+
+main .input-form input{
+    display: block;
+    margin: 0.5rem 0;
+}
+
+main .input-form textarea{
+    display: block;
+    margin: 0.5rem 0;
+}

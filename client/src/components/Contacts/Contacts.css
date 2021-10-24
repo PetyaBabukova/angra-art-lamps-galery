@@ -1,0 +1,59 @@
+.contacts{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.adress{
+    padding: 0.8% 5%;
+}
+
+.contact-form,
+form {
+    margin-top: 5%;
+    width: 80%;
+    padding: 0 5%;
+}
+
+.contact-form input,
+.input-form input{
+    width: 80%;
+    margin-bottom: 2%;
+    padding: 1.5%;
+    font-size: 1.2em;
+}
+
+#question, textarea{
+    width: 80%;
+    font-size: 1.2em;
+    padding: 1.5%;
+    font-family: inherit;
+}
+
+@media (min-width: 800px){
+    .contacts{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .adress{
+        padding: 0.8% 10%;
+    }
+
+    .aderss-contacts{
+        width: 50%;
+        margin-top: 20px;
+    }
+
+    .contact-form{
+        padding: 0;
+        margin: 0;
+        width: 50%;
+    
+    }
+}
+
+@media(min-width: 1000px){
+    .adress{
+        padding: 0.8% 12%;
+    }
+}
