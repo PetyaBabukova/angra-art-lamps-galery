@@ -2,54 +2,117 @@
   "products": [
       {
           "id": "5bb0888ee1d636567dc9f627",
-          "name": "Капан за сънища Цветя",
+          "name": "Лампа Цветя",
           "description": "Капан за сънища Цветя Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magni nostrum dolores corporis natus porro, quidem sint dolor pariatur temporibus veritatis sequi laboriosam animi similique labore molestiae suscipit autem! Totam fugiat maxime, distinctio reiciendis rerum commodi alias adipisci quaerat dolores aspernatur tempore, natus culpa non eligendi itaque. Exercitationem, quidem reiciendis.",
           "imageURL": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
           "category": "lamps",
+          "subcategory": "category1",
           "price": 50
   
       },
       {
           "id": "5bb0888ee1d636567dca0767",
-          "name": "Капан за сънища Луна",
+          "name": "Луна",
           "description": "Капан за сънища Луна Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magni nostrum dolores corporis natus porro, quidem sint dolor pariatur temporibus veritatis sequi laboriosam animi similique labore molestiae suscipit autem! Totam fugiat maxime, distinctio reiciendis rerum commodi alias adipisci quaerat dolores aspernatur tempore, natus culpa non eligendi itaque. Exercitationem, quidem reiciendis.",
           "imageURL": "https://cdn-prod.medicalnewstoday.com/content/images/articles/325/325466/man-walking-dog.jpg",
           "category": "lamps",
+          "subcategory": "category1",
           "price": 50
   
       },
       {
           "id": "5bb0888ee1d636567dcb4867",
-          "name": "Капан за сънища Мандало",
+          "name": "Лампаа Мандало",
           "description": "Капан за сънища Мандало Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magni nostrum dolores corporis natus porro, quidem sint dolor pariatur temporibus veritatis sequi laboriosam animi similique labore molestiae suscipit autem! Totam fugiat maxime, distinctio reiciendis rerum commodi alias adipisci quaerat dolores aspernatur tempore, natus culpa non eligendi itaque. Exercitationem, quidem reiciendis.",
           "imageURL": "https://media-ce-cdn.oriflame.com/-/media/Images/Brands/Love-Nature/2019/Re-launch/TWIN_BANNER_2_LOVE_NATURE.ashx?u=0101010000&q=90",
           "category": "lamps",
+          "subcategory": "category2",
           "price": 50
   
       },
       {
           "id": "5bb0888ee1d636567dc05867",
-          "name": "Капан за сънища Бухал",
+          "name": "Лампа Бухал",
           "description": "Капан за сънища Бухал Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magni nostrum dolores corporis natus porro, quidem sint dolor pariatur temporibus veritatis sequi laboriosam animi similique labore molestiae suscipit autem! Totam fugiat maxime, distinctio reiciendis rerum commodi alias adipisci quaerat dolores aspernatur tempore, natus culpa non eligendi itaque. Exercitationem, quidem reiciendis.",
           "imageURL": "https://scontent.fsof9-1.fna.fbcdn.net/v/t1.6435-9/198508304_356914825769763_9206149424132094925_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=0debeb&_nc_ohc=JqROvHsSsQMAX87V_bg&_nc_ht=scontent.fsof9-1.fna&oh=39b74512b672b65148e40e839b9f4383&oe=60CF8967",
           "category": "lamps",
+          "subcategory": "category3",
           "price": 50
       },
       {
         "id": "5bb0888ee1d636567dc05891",
-        "name": "Играчка за елха Елхичка",
+        "name": "Лампа Елхичка",
         "description": "Играчка за елха Елхичка Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magni nostrum dolores corporis natus porro, quidem sint dolor pariatur temporibus veritatis sequi laboriosam animi similique labore molestiae suscipit autem! Totam fugiat maxime, distinctio reiciendis rerum commodi alias adipisci quaerat dolores aspernatur tempore, natus culpa non eligendi itaque. Exercitationem, quidem reiciendis.",
         "imageURL": "https://i.pinimg.com/originals/b2/b1/18/b2b118667ce7942ca44578fb740d960c.jpg",
         "category": "christmas-toys",
+        "subcategory": "category2",
         "price": 3
     },
     {
         "id": "5bb0888ee1d636567dc05825",
-        "name": "Стойка за вино Някаква си",
+        "name": "Лампа Някаква си",
         "description": "Стойка за вино Някаква си Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magni nostrum dolores corporis natus porro, quidem sint dolor pariatur temporibus veritatis sequi laboriosam animi similique labore molestiae suscipit autem! Totam fugiat maxime, distinctio reiciendis rerum commodi alias adipisci quaerat dolores aspernatur tempore, natus culpa non eligendi itaque. Exercitationem, quidem reiciendis.",
         "imageURL": "https://www.touchofclass.com/images/xxl/R337-001.jpg?v=101470284530-4",
-        "category": "wine-holders",
+        "category": "lamps",
+        "subcategory": "category4",
         "price": 15
-    }
+    },
+    {
+        "id": "5bb0888ee1d636567dc9f6271",
+        "name": "Капан за сънища Цветя",
+        "description": "Капан за сънища Цветя Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magni nostrum dolores corporis natus porro, quidem sint dolor pariatur temporibus veritatis sequi laboriosam animi similique labore molestiae suscipit autem! Totam fugiat maxime, distinctio reiciendis rerum commodi alias adipisci quaerat dolores aspernatur tempore, natus culpa non eligendi itaque. Exercitationem, quidem reiciendis.",
+        "imageURL": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
+        "category": "dreamcatchers",
+        "subcategory": "category1",
+        "price": 50
+
+    },
+    {
+        "id": "5bb0888ee1d636567dca07672",
+        "name": "Капан за сънища Луна",
+        "description": "Капан за сънища Луна Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magni nostrum dolores corporis natus porro, quidem sint dolor pariatur temporibus veritatis sequi laboriosam animi similique labore molestiae suscipit autem! Totam fugiat maxime, distinctio reiciendis rerum commodi alias adipisci quaerat dolores aspernatur tempore, natus culpa non eligendi itaque. Exercitationem, quidem reiciendis.",
+        "imageURL": "https://cdn-prod.medicalnewstoday.com/content/images/articles/325/325466/man-walking-dog.jpg",
+        "category": "dreamcatchers",
+        "subcategory": "category1",
+        "price": 50
+
+    },
+    {
+        "id": "5bb0888ee1d636567dcb48673",
+        "name": "Капан за сънища Мандало",
+        "description": "Капан за сънища Мандало Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magni nostrum dolores corporis natus porro, quidem sint dolor pariatur temporibus veritatis sequi laboriosam animi similique labore molestiae suscipit autem! Totam fugiat maxime, distinctio reiciendis rerum commodi alias adipisci quaerat dolores aspernatur tempore, natus culpa non eligendi itaque. Exercitationem, quidem reiciendis.",
+        "imageURL": "https://media-ce-cdn.oriflame.com/-/media/Images/Brands/Love-Nature/2019/Re-launch/TWIN_BANNER_2_LOVE_NATURE.ashx?u=0101010000&q=90",
+        "category": "dreamcatchers",
+        "subcategory": "category2",
+        "price": 50
+
+    },
+    {
+        "id": "5bb0888ee1d636567dc058674",
+        "name": "Капан за сънища Бухал",
+        "description": "Капан за сънища Бухал Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magni nostrum dolores corporis natus porro, quidem sint dolor pariatur temporibus veritatis sequi laboriosam animi similique labore molestiae suscipit autem! Totam fugiat maxime, distinctio reiciendis rerum commodi alias adipisci quaerat dolores aspernatur tempore, natus culpa non eligendi itaque. Exercitationem, quidem reiciendis.",
+        "imageURL": "https://scontent.fsof9-1.fna.fbcdn.net/v/t1.6435-9/198508304_356914825769763_9206149424132094925_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=0debeb&_nc_ohc=JqROvHsSsQMAX87V_bg&_nc_ht=scontent.fsof9-1.fna&oh=39b74512b672b65148e40e839b9f4383&oe=60CF8967",
+        "category": "dreamcatchers",
+        "subcategory": "category3",
+        "price": 50
+    },
+    {
+      "id": "5bb0888ee1d636567dc058915",
+      "name": "Играчка за елха Елхичка",
+      "description": "Играчка за елха Елхичка Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magni nostrum dolores corporis natus porro, quidem sint dolor pariatur temporibus veritatis sequi laboriosam animi similique labore molestiae suscipit autem! Totam fugiat maxime, distinctio reiciendis rerum commodi alias adipisci quaerat dolores aspernatur tempore, natus culpa non eligendi itaque. Exercitationem, quidem reiciendis.",
+      "imageURL": "https://i.pinimg.com/originals/b2/b1/18/b2b118667ce7942ca44578fb740d960c.jpg",
+      "category": "christmas-toys",
+      "subcategory": "category2",
+      "price": 3
+  },
+  {
+      "id": "5bb0888ee1d636567dc058256",
+      "name": "Стойка за вино Някаква си",
+      "description": "Стойка за вино Някаква си Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magni nostrum dolores corporis natus porro, quidem sint dolor pariatur temporibus veritatis sequi laboriosam animi similique labore molestiae suscipit autem! Totam fugiat maxime, distinctio reiciendis rerum commodi alias adipisci quaerat dolores aspernatur tempore, natus culpa non eligendi itaque. Exercitationem, quidem reiciendis.",
+      "imageURL": "https://www.touchofclass.com/images/xxl/R337-001.jpg?v=101470284530-4",
+      "category": "wine-holders",
+      "subcategory": "category4",
+      "price": 15
+  }
   ]
 }

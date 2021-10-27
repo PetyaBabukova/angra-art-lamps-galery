@@ -9,6 +9,7 @@ header{
     background-position: bottom;
 }
 
+
 .logo-container{
     width: 90%;
     margin: 30px auto;
@@ -79,9 +80,10 @@ cursor: pointer;
     flex-flow: column wrap;
 }
 
-#root > div > header > div.nav-container > nav > ul > a{
+
+#root > div > header > div.nav-container > nav > ul > li > a{
     list-style: none;
-    font-size: 2em;
+    font-size: 1.5em;
     padding: 10px 0;
     font-weight: bold;
     color: #008289;

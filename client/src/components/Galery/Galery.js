@@ -21,7 +21,7 @@ const Galery = ({
     const [products, setProducts] = useState([])
 
     useEffect(() => {
-        fetch(`http://localhost:5500/products/`)
+        fetch(`http://localhost:5000/products/`)
             .then(res => res.json())
             .then(res => setProducts(res))
             .catch(err => console.log(err))
@@ -37,7 +37,7 @@ const Galery = ({
             {/* {products.map(x=>{return(<Link className="main-nav-button button categories-nav" to="/" classNameName='main-nav-buttons'>{x.category}</Link>)})} */}
 
             {/* {products.map(x=>{return(<h2 className="main-subtittle">{x.category}</h2>)})}; */}
-
+        
             {products.map(x => <ProductCard key={x.id} name={x.name} description={x.description} price={x.price} imageURL={x.imageURL} />)}
 
         </main>
