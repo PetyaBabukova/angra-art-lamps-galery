@@ -1,20 +1,18 @@
 import '../Galery/Galery.css';
 import './LampsGaleryNavigation.css'
-import { Link } from 'react-router-dom';
-import { useEffect, useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
-const LampsGaleryNavigation = ({
-
-}) => {
+const LampsGaleryNavigation = () => {
     return (
         <div className="galery-navigation">
-            <Link to='/lamps'><h1 className="main-tittle">Лампи</h1></Link>
+            {/* <NavLink to='/lamps'><h1 className="main-tittle">Лампи</h1></NavLink> */}
             <div className="categories">
-                <Link className="main-nav-button button categories-nav" to="/category1" >Категория 1</Link>
-                <Link className="main-nav-button button categories-nav" to="/category2" >Категория 2</Link>
-                <Link className="main-nav-button button categories-nav" to="/category3" >Категория 3</Link>
-                <Link className="main-nav-button button categories-nav" to="/category4" >Категория 4</Link>
-                <Link className="main-nav-button button categories-nav" to="/category5" >Категория 5</Link>
+                <NavLink activeClassName="button-selected" className="main-nav-button button categories-nav" to="/" >Всички</NavLink>
+                <NavLink activeClassName="button-selected" className="main-nav-button button categories-nav" to="/categories/literature" >Литература</NavLink>
+                <NavLink activeClassName="button-selected" className="main-nav-button button categories-nav" to="/categories/science" >Наука</NavLink>
+                <NavLink activeClassName="button-selected" className="main-nav-button button categories-nav" to="/categories/sport" >Спорт</NavLink>
+                <NavLink activeClassName="button-selected" className="main-nav-button button categories-nav" to="/categories/fantasy" >Фентъзи</NavLink>
+                <NavLink activeClassName="button-selected" className="main-nav-button button categories-nav" to="/categories/movies" >Филми</NavLink>
             </div>
         </div>
     )

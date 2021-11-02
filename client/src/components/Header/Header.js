@@ -26,10 +26,11 @@ const Header = () => {
                     <div className="nav-container">
                         <nav className="main-nav">
                             <ul>
-                                <li><Link className="main-nav-button" to="/" >За нас</Link></li>
-                                <li><Link to="/galery" className='main-nav-buttons'>Галерия</Link></li>
+                                {/* <li><Link className="main-nav-button" to="/about-us" >За нас</Link></li> */}
+                                {/* <li><Link to="/" className='main-nav-buttons'>Галерия Лампи</Link></li> */}
+                                {/* <li><Link to="/galery" className='main-nav-buttons'>Галерия</Link></li> */}
                                 {/* <li><Link to="/orders" className='main-nav-buttons'>Поръчки</Link></li> */}
-                                <li><Link to="/contacts" className='main-nav-buttons'>Поръчки</Link></li>
+                                {/* <li><Link to="/contacts" className='main-nav-buttons'>Поръчки</Link></li> */}
                             </ul>
                         </nav>
                     </div>

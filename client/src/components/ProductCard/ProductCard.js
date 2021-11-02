@@ -7,14 +7,15 @@ const ProductCard = ({
         name,
         description,
         imageURL,
-        category, 
+        category,
+        subcategory, 
         price
     }) => {
     return (
-        <Link className="product-card-container" to="/details">
+        <Link className="product-card-container" to={`/products/details/${id}`}>
             <section >
                 <div className="product-card-image-container">
-                    <img src={imageURL} />
+                    <img alt="img" src={imageURL} />
                 </div>
                 <h3 className="product-card-tittle" >{name}</h3>
                 <p className="product-card-description">{description}</p>

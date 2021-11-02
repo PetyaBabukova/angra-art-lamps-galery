@@ -1,5 +1,4 @@
 import './LampsGalery.css';
-import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
 import ProductCard from '../ProductCard/ProductCard';
@@ -9,37 +8,20 @@ const LampsGalery = ({
     match,
     category
 }) => {
+    console.log(match);
 
-    // let queryString = category
-    // ? `?category=${category}`
-    // : ''
+    const[products, setProducts] = useState([]);
 
-    // let queryString = match.params.category
-    // ?`category=${match.params.category}`
-    // : ''
-
-    const [products, setProducts] = useState([])
-
-    useEffect(() => {
-        let searchedCategory = category;
-        let url = 'http://localhost:5000/products';
-
-        if(searchedCategory){
-            url += `/?category=${category}`;
-        }
-
-        // fetch(`http://localhost:5000/products/?category=lamps`)
-        fetch(url)
-        // fetch(`http://localhost:5000/products`)
-            .then(res => res.json())
-            .then(res => setProducts(res))
-            .catch(err => console.log(err))
-    }, [])
+    useEffect(()=>{
+        fetch('http://localhost:5000/products')
+        .then(res => res.json())
+        .then(res => setProducts(res))
+    },[])
 
     console.log(products);
-    products.map(x => console.log(x.category));
 
     return (
+
         <main>
 
             <LampsGaleryNavigation></LampsGaleryNavigation>
@@ -47,7 +29,19 @@ const LampsGalery = ({
 
             {/* {products.map(x=>{return(<h2 className="main-subtittle">{x.category}</h2>)})}; */}
 
-            {products.map(x => <ProductCard key={x.id} name={x.name} description={x.description} price={x.price} imageURL={x.imageURL} />)}
+            {products.map(x => <ProductCard key={x.id} name={x.name} description={x.description} price={x.price} imageURL={x.imageURL1} />)}
+
+            {/* {products.map((x) => {
+                 if (x.category == searchedCategory) {
+                    <ProductCard key={x.id} name={x.name} description={x.description} price={x.price} imageURL={x.imageURL} />)}
+                    
+                    
+                } */}
+
+                
+            
+            
+
 
         </main>
     )

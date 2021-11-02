@@ -18,18 +18,27 @@
     width: 50%
 }
 
+.button-selected {
+    background-color: #008289;
+    color:#FFFBAB;
+    border-color: #FFFBAB;
+}
+
 @media (min-width: 800px){
 .galery-navigation{
     justify-content: center;
+    margin-bottom: 0;
 }
 
     .categories {
         flex-flow: row wrap;
+        justify-content: flex-start;
+        padding: 0;
     }
 
     .categories > .main-nav-button{
-        margin: 2%;
-        width: 25%;
+        margin: 1%;
+        width: 20%;
     }
 
 }
