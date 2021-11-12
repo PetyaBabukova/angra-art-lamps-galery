@@ -1,76 +1,112 @@
 {
-    "products": [
-        {
-            "id": "5bb0888ee1d636567dc9f627",
-            "name": "Лампа Цветя",
-            "description": "Капан за сънища Цветя Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magni nostrum dolores corporis natus porro, quidem sint dolor pariatur temporibus veritatis sequi laboriosam animi similique labore molestiae suscipit autem! Totam fugiat maxime, distinctio reiciendis rerum commodi alias adipisci quaerat dolores aspernatur tempore, natus culpa non eligendi itaque. Exercitationem, quidem reiciendis.",
-            "imageURL": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
-            "imageURL2": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
-            "imageURL3": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
-            "imageURL4": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
-            "category": "lamps",
-            "subcategory": "science",
-            "price": 50
-        },
-        {
-            "id": "5bb0888ee1d636567dca0767",
-            "name": "Луна",
-            "description": "Капан за сънища Луна Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magni nostrum dolores corporis natus porro, quidem sint dolor pariatur temporibus veritatis sequi laboriosam animi similique labore molestiae suscipit autem! Totam fugiat maxime, distinctio reiciendis rerum commodi alias adipisci quaerat dolores aspernatur tempore, natus culpa non eligendi itaque. Exercitationem, quidem reiciendis.",
-            "imageURL": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
-            "imageURL2": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
-            "imageURL3": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
-            "imageURL4": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
-            "category": "lamps",
-            "subcategory": "science",
-            "price": 50
-        },
-        {
-            "id": "5bb0888ee1d636567dcb4867",
-            "name": "Лампаа Мандало",
-            "description": "Капан за сънища Мандало Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magni nostrum dolores corporis natus porro, quidem sint dolor pariatur temporibus veritatis sequi laboriosam animi similique labore molestiae suscipit autem! Totam fugiat maxime, distinctio reiciendis rerum commodi alias adipisci quaerat dolores aspernatur tempore, natus culpa non eligendi itaque. Exercitationem, quidem reiciendis.",
-            "imageURL": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
-            "imageURL2": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
-            "imageURL3": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
-            "imageURL4": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
-            "category": "lamps",
-            "subcategory": "literature",
-            "price": 50
-        },
-        {
-            "id": "5bb0888ee1d636567dc05867",
-            "name": "Лампа Бухал",
-            "description": "Капан за сънища Бухал Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magni nostrum dolores corporis natus porro, quidem sint dolor pariatur temporibus veritatis sequi laboriosam animi similique labore molestiae suscipit autem! Totam fugiat maxime, distinctio reiciendis rerum commodi alias adipisci quaerat dolores aspernatur tempore, natus culpa non eligendi itaque. Exercitationem, quidem reiciendis.",
-            "imageURL": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
-            "imageURL2": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
-            "imageURL3": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
-            "imageURL4": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
-            "category": "lamps",
-            "subcategory": "sport",
-            "price": 50
-        },
-        {
-            "id": "5bb0888ee1d636567dc05891",
-            "name": "Лампа Елхичка",
-            "description": "Играчка за елха Елхичка Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magni nostrum dolores corporis natus porro, quidem sint dolor pariatur temporibus veritatis sequi laboriosam animi similique labore molestiae suscipit autem! Totam fugiat maxime, distinctio reiciendis rerum commodi alias adipisci quaerat dolores aspernatur tempore, natus culpa non eligendi itaque. Exercitationem, quidem reiciendis.",
-            "imageURL": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
-            "imageURL2": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
-            "imageURL3": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
-            "imageURL4": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
-            "category": "christmas-toys",
-            "subcategory": "movies",
-            "price": 3
-        },
-        {
-            "id": "5bb0888ee1d636567dc05825",
-            "name": "Лампа Някаква си",
-            "description": "Стойка за вино Някаква си Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magni nostrum dolores corporis natus porro, quidem sint dolor pariatur temporibus veritatis sequi laboriosam animi similique labore molestiae suscipit autem! Totam fugiat maxime, distinctio reiciendis rerum commodi alias adipisci quaerat dolores aspernatur tempore, natus culpa non eligendi itaque. Exercitationem, quidem reiciendis.",
-            "imageURL": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
-            "imageURL2": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
-            "imageURL3": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
-            "imageURL4": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
-            "category": "lamps",
-            "subcategory": "movies",
-            "price": 15
-        }
-    ]
+  "products": [
+    {
+      "id": "5bb0888ee1d636567dc9f627",
+      "name": "Лампа Цветя",
+      "description": "Капан за сънища Цветя Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magni nostrum dolores corporis natus porro, quidem sint dolor pariatur temporibus veritatis sequi laboriosam animi similique labore molestiae suscipit autem! Totam fugiat maxime, distinctio reiciendis rerum commodi alias adipisci quaerat dolores aspernatur tempore, natus culpa non eligendi itaque. Exercitationem, quidem reiciendis.",
+      "imageURL": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
+      "imageURL2": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
+      "imageURL3": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
+      "imageURL4": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
+      "category": "lamps",
+      "subcategory": "science",
+      "price": 50
+    },
+    {
+      "id": "5bb0888ee1d636567dca0767",
+      "name": "Луна",
+      "description": "Капан за сънища Луна Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magni nostrum dolores corporis natus porro, quidem sint dolor pariatur temporibus veritatis sequi laboriosam animi similique labore molestiae suscipit autem! Totam fugiat maxime, distinctio reiciendis rerum commodi alias adipisci quaerat dolores aspernatur tempore, natus culpa non eligendi itaque. Exercitationem, quidem reiciendis.",
+      "imageURL": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
+      "imageURL2": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
+      "imageURL3": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
+      "imageURL4": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
+      "category": "lamps",
+      "subcategory": "science",
+      "price": 50
+    },
+    {
+      "id": "5bb0888ee1d636567dcb4867",
+      "name": "Лампаа Мандало",
+      "description": "Капан за сънища Мандало Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magni nostrum dolores corporis natus porro, quidem sint dolor pariatur temporibus veritatis sequi laboriosam animi similique labore molestiae suscipit autem! Totam fugiat maxime, distinctio reiciendis rerum commodi alias adipisci quaerat dolores aspernatur tempore, natus culpa non eligendi itaque. Exercitationem, quidem reiciendis.",
+      "imageURL": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
+      "imageURL2": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
+      "imageURL3": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
+      "imageURL4": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
+      "category": "lamps",
+      "subcategory": "literature",
+      "price": 50
+    },
+    {
+      "id": "5bb0888ee1d636567dc05867",
+      "name": "Лампа Бухал",
+      "description": "Капан за сънища Бухал Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magni nostrum dolores corporis natus porro, quidem sint dolor pariatur temporibus veritatis sequi laboriosam animi similique labore molestiae suscipit autem! Totam fugiat maxime, distinctio reiciendis rerum commodi alias adipisci quaerat dolores aspernatur tempore, natus culpa non eligendi itaque. Exercitationem, quidem reiciendis.",
+      "imageURL": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
+      "imageURL2": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
+      "imageURL3": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
+      "imageURL4": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
+      "category": "lamps",
+      "subcategory": "sport",
+      "price": 50
+    },
+    {
+      "id": "5bb0888ee1d636567dc05891",
+      "name": "Лампа Елхичка",
+      "description": "Играчка за елха Елхичка Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magni nostrum dolores corporis natus porro, quidem sint dolor pariatur temporibus veritatis sequi laboriosam animi similique labore molestiae suscipit autem! Totam fugiat maxime, distinctio reiciendis rerum commodi alias adipisci quaerat dolores aspernatur tempore, natus culpa non eligendi itaque. Exercitationem, quidem reiciendis.",
+      "imageURL": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
+      "imageURL2": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
+      "imageURL3": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
+      "imageURL4": "https://imgproxy.natucate.com/PAd5WVIh-tjEKQM4Z6tm6W1J4Yc2JIYWrKEroD1c7mM/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlYXJ0ZW4vNmMwODZlYmEtNzk3Yi00ZDVjLTk2YTItODhhNGM4OWUyODdlLzM3NjYwMTQ2NjMtMTU2NzQzMzYxMi8xMl9kYW5pZWxfY2FuX2JjLTIwNy5qcGc",
+      "category": "christmas-toys",
+      "subcategory": "movies",
+      "price": 3
+    },
+    {
+      "name": "Fantasy lamp",
+      "description": "The moment of true",
+      "imageURL": "https://i.pinimg.com/originals/6a/07/bf/6a07bfd0000b7a0f2bab0c3d849ebbc7.jpg",
+      "imageURL2": "https://assetstorev1-prd-cdn.unity3d.com/key-image/c477b63d-1493-406a-a322-a06f0df38123.jpg",
+      "imageURL3": "https://assetstorev1-prd-cdn.unity3d.com/package-screenshot/891359b5-f86a-4aca-8424-b1d15cf5267c_scaled.jpg",
+      "imageURL4": "https://img-new.cgtrader.com/items/2647493/75f219e566/large/stylized-street-lamp-3d-model-low-poly-obj-fbx-stl-blend-dae.jpg",
+      "category": "lamps",
+      "subcategory": "fantasy",
+      "price": "23",
+      "id": "6owxEmE"
+    },
+    {
+      "name": "futbol",
+      "description": "Petya will be the best programmer ever... some day :)",
+      "imageURL": "https://cdn.shopify.com/s/files/1/2689/5080/products/3d-lamp-football-hands-on-gadget-store_453.jpg?v=1589335971",
+      "imageURL2": "https://ae01.alicdn.com/kf/HTB11YobSXXXXXavXpXXq6xXFXXXk/Changing-Soccer-Ball-Lamp-Football-3D-Visual-Led-Night-Light-USB-Novelty-Table-Lamps-Lampara-Touch.jpg",
+      "imageURL3": "",
+      "imageURL4": "",
+      "category": "lamps",
+      "subcategory": "sport",
+      "price": "54564",
+      "id": "yq_UUSK"
+    },
+    {
+      "name": "Stefans lamp",
+      "description": "I am very prowd of Petya",
+      "imageURL": "https://cdn20.pamono.com/p/g/2/8/284971_smkz8oj2qn/mid-century-red-opaline-glass-table-lamp-by-stefan-tabery-for-opp-jihlava-1960s-1.jpg",
+      "imageURL2": "https://www.design-mkt.com/985256-thickbox_default/vintage-table-lamp-by-stepan-tabery-1970s.jpg",
+      "imageURL3": "https://a.1stdibscdn.com/archivesE/upload/1121189/f_78511931498556637100/7851193_l.jpg",
+      "imageURL4": "",
+      "category": "lamps",
+      "subcategory": "fantasy",
+      "price": "654",
+      "id": "xWDmEqK"
+    },
+    {
+      "name": "Two cubes",
+      "description": "po;iuououy",
+      "imageURL": "https://cdn.shopify.com/s/files/1/2689/5080/products/3d-lamp-football-hands-on-gadget-store_453.jpg?v=1589335971",
+      "imageURL2": "https://assetstorev1-prd-cdn.unity3d.com/key-image/c477b63d-1493-406a-a322-a06f0df38123.jpg",
+      "imageURL3": "https://assetstorev1-prd-cdn.unity3d.com/package-screenshot/891359b5-f86a-4aca-8424-b1d15cf5267c_scaled.jpg",
+      "imageURL4": "https://img-new.cgtrader.com/items/2647493/75f219e566/large/stylized-street-lamp-3d-model-low-poly-obj-fbx-stl-blend-dae.jpg",
+      "category": "lamps",
+      "subcategory": "sport",
+      "price": "96875498",
+      "id": "gnF9vGh"
+    }
+  ]
 }

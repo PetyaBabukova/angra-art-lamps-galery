@@ -1,0 +1,30 @@
+main .input-form{
+    max-width: 60%;
+    margin: 0.8rem auto;
+}
+
+main .input-form input
+{
+    display: block;
+    margin: 0.5rem 0;
+}
+
+main .input-form textarea{
+    display: block;
+    margin: 0.5rem 0;
+}
+
+.input-category {
+    /* display: block; */
+    margin: 0.5rem 0;
+    height: 2.5rem;
+    font-size: 1.2em;
+}
+
+.selectForm{
+    max-width: 100%;
+}
+
+.label-for-select{
+    margin-right: 2%;
+}

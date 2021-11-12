@@ -14,13 +14,13 @@ const Contacts = () => {
                 <p className="adress">e-mail: angra@abv.bg, angra@angra-bg.com</p>
                 <br></br>
                 <br></br>
-                <p className="adress"> <i>В контактната форма, моля напишете артикулния номер на изделието което сте си избрали или ако имате някакви други желания/ предложения. Ние ще се свържем с вас за допълнителни уточнения в първия възможен момент :)</i></p>
+                <p className="adress"> <i>Моля напишете артикулния номер на изделието което сте си избрали или ако имате някакви други желания/ предложения. Ние ще се свържем с вас за допълнителни уточнения в първия възможен момент :)</i></p>
             </div>
             
             <form className="form contact-form">
                 <input type="text" name="name" id="name"  placeholder="Вашето име" />
                 <input type="number" name="phone" id="phone" placeholder="Телефон за връзка" />
-                <input type="email" name="email" id="email" placeholder="Вашият електронен адрес" />
+                <input type="email" name="email" id="email" placeholder="e-mail" />
                 <textarea name="question" id="question" cols="41" rows="10" placeholder="Контактна форма" maxlength="500"></textarea>
                 
             </form>

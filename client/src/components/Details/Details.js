@@ -1,5 +1,7 @@
 import './Details.css';
 import { useEffect, useState } from 'react';
+import { Link } from "react-router-dom";
+
 import * as productService from "../../services/productService";
 
 const Details = ({
@@ -41,7 +43,8 @@ const Details = ({
                 </div>
                 <p>{product.description}</p>
 
-                    <button className="button order-button" type="submit">Поръчай</button>
+                    {/* <button className="button order-button" type="submit">Поръчай</button> */}
+                    <Link to="/contacts" className='main-nav-buttons'><button className="button order-button" type="submit">Поръчай</button></Link>
                 </div>
         </article>
 

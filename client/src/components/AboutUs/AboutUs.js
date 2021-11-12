@@ -1,7 +1,6 @@
-import { Divider } from 'antd';
-import './Home.css';
+import './AboutUs.css';
 
-const Home = () => {
+const AboutUs = () => {
     return (
         <div className="home-page">
             <h2>Something interesting for Home page</h2>
@@ -25,4 +24,4 @@ const Home = () => {
     )
 };
 
-export default Home;
+export default AboutUs;

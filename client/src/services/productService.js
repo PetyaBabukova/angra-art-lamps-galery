@@ -16,3 +16,26 @@ export const getOne = (productId) => {
         .then(res => res.json())
         .catch(err => console.log(err))
 }
+
+export const create = (productName, description, imageURL, imageURL2, imageURL3, imageURL4, category, subcategory, price) => {
+
+    let product = {
+        name: productName, 
+        description, 
+        imageURL, 
+        imageURL2, 
+        imageURL3, 
+        imageURL4, 
+        category, 
+        subcategory, 
+        price
+    }
+
+    return fetch(url, {
+        method: 'POST',
+        headers: {
+            'Content-Type' : 'application/json',
+        },
+        body: JSON.stringify(product)
+    });
+};
