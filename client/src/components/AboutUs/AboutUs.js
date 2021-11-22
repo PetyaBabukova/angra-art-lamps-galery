@@ -3,23 +3,11 @@ import './AboutUs.css';
 const AboutUs = () => {
     return (
         <div className="home-page">
-            <h2>Something interesting for Home page</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque facilis sint repellendus omnis
-                perferendis
-                alias, quos est consequatur sunt quaerat excepturi saepe animi laboriosam natus exercitationem? Amet
-                aliquam
-                aperiam non atque at nesciunt sit facilis, corporis in, aut, fugiat deleniti quos ipsa quidem. Maxime
-                corporis, esse culpa doloremque rem ut recusandae. Tempora vel dolor quibusdam, quis amet, doloremque
-                enim
-                voluptatibus non inventore recusandae totam molestias dignissimos nulla repellat consequatur libero
-                omnis
-                eum a, laborum quidem consequuntur. Optio, quidem. Quis laboriosam suscipit numquam vel quos at sunt cum
-                quibusdam consequatur facilis velit ratione magni sit vitae quas, eaque debitis molestias. Voluptatem
-                obcaecati ducimus vitae cum corporis, perspiciatis minima, ipsam fugiat placeat esse necessitatibus,
-                fuga
-                iusto! Dolore exercitationem dignissimos sint corrupti veritatis, saepe hic odio recusandae voluptas eos
-                illo maxime alias optio voluptatum aperiam accusamus repellendus sed sit qui, fugiat asperiores beatae
-                eveniet deleniti explicabo. Maiores consequatur quae aut iure libero rem!</p>
+            <h2>Персонализирани подаръци, направени с любов!</h2>
+            <p>Какво е важно за Вас, когато търсите подарък за близък, приятел или пък за дома? Да е красив, оригинален и специално направен, нали?
+                Затова и ние в Ангра Арт творим персонализирани подаръци за Вас и Вашите близки. Защото знаем, че отношението и посланието на един подарък са по-важни от неговата цена. Когато подаръкът е направен специално за конкретен човек, носи неговото имe или Ваше лично послание, тогава той от предмет се превръща в сантиментална скъпоценност без цена.
+                Ако пък от Ангра Арт избирате декорация за дома, можете да бъдете сигурни, че ще получите красиви и качествени продукти, с които да украсите интериора и да подчертаете детайлите.
+                Разгледайте нашите предложения, а за поръчки и въпроси ние сме на разположение в Messenger. Вижте по-малко</p>
         </div>
     )
 };

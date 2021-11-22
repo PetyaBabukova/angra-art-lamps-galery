@@ -6,16 +6,23 @@ footer{
     justify-content: space-between;
 }
 
-.fb-logo-container,
-.instagram-logo-container{
+.social-media-logo-container{
     width: 1%;
     font-size: 3em;
-    color: #007ACC;
+    display: flex;
+    width: 8%;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
 
 .fa-facebook-square{
     color: #007ACC;
 }
+
+.fa-facebook-messenger{
+    color: #007ACC;
+}
+
 
 .all-rights{
     font-size: 1.2em;

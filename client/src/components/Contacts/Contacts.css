@@ -40,7 +40,8 @@ form {
     }
 
     .aderss-contacts{
-        width: 50%;
+        /* width: 50%; */
+        width: 100%;
         margin-top: 20px;
     }
 
