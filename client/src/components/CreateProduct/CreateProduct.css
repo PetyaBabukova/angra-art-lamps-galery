@@ -28,3 +28,14 @@ main .input-form textarea{
 .label-for-select{
     margin-right: 2%;
 }
+
+.submit-buttons-container{
+    display: flex;
+    width: 80%;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+#root > div > main > form > div.submit-buttons-container > input{
+    width: 30%;
+}
