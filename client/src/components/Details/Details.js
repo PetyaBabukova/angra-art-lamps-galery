@@ -7,6 +7,7 @@ import * as productService from "../../services/productService";
 const Details = ({
     match
 }) => {
+    
 
     let [product, setProduct] = useState({})
 

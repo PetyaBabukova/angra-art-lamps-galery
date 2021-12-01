@@ -17,65 +17,8 @@ body{
   box-sizing: border-box;
 }
 h1, h2, h3{
-  font-family: 'Bad Script', cursive;
-}
-
-header{
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 30px;
-  /* border-bottom: 1px solid #008289; */
-  /* background: url('./bg-wave.png'), linear-gradient(0deg, rgba(237,41,34,1) 0%, rgba(253,187,45,1) 38%, rgba(253,187,45,1) 100%); */
-  /* background: url('./bg-wave.png'), linear-gradient(0deg, rgba(0,183,188,1) 0%, rgba(253,187,45,1) 38%, rgba(253,187,45,1) 100%); */
-  background: url('../src/pictures/bg-wave_yellow.png'), linear-gradient(273deg, rgba(252,80,90,1) 0%, rgba(247,228,130,1) 54%, rgba(255,210,113,0.1964986678265056) 100%);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  
-}
-
-.logo-container{
-  /* background: pink; */
-  width: 90%;
-  /* width: 540px;
-  height: 270px; */
-  margin: 30px auto;
-}
-
-.logo-container img{
-  width: 100%;
-  background: transparent;
-}
-
-.search-form-container{
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  width: 90%;
-  }
-
-#search-form{
-  width: 75%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.shopping-cart{
-  width: 15%;
-}
-
-.shopping-cart:hover {
-  cursor: pointer;
-  box-shadow: 5px 4px 7px -2px #000000;
-}
-
-#search{
-  width: 71%;
-  padding: 15px 0;
-  border: 1px solid #008289;
-  background: #FFFBAB;
-  border-radius: 5px;
+  /* font-family: 'Bad Script', cursive; */
+  font-style: italic;
 }
 
 .button{
@@ -87,39 +30,13 @@ header{
   font-weight: bold;
 }
 
-.search-button{
-  width: 28%;
-  padding: 10px 0;
-}
-
 .button:hover {
 box-shadow: 5px 4px 7px -2px #000000;
 cursor: pointer;
 }
 
-.main-nav ul{
-  margin: 0;
-  padding: 0;
-}
-
-.main-nav ul li {
-  list-style: none;
-  font-size: 1.2em;
-  padding: 10px 0;
-  font-weight: bold;
-  color: #008289;
-  /* color: #EE2D6A; */
-  /* color: #ED2922; */
-  padding: 0.5em;
-}
-
-.main-nav ul li:hover{
-  cursor: pointer;
-  text-decoration: underline;
-}
-
 main {
-  margin-top: 30px;
+  margin-top: 5%;
   width: 100%;
   border-bottom: 1px solid #008289;
   padding-bottom: 3%;

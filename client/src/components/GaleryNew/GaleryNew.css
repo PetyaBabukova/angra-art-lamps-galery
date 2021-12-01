@@ -1,0 +1,13 @@
+.categories{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 10%;
+}
+
+.categories-nav{
+    margin-left: 2%;
+    text-decoration: none;
+    padding: 1% 2%;
+}

@@ -8,15 +8,14 @@ const LampsGalery = ({
     match,
     category
 }) => {
-    console.log(match);
 
-    const[products, setProducts] = useState([]);
+    const [products, setProducts] = useState([]);
 
-    useEffect(()=>{
+    useEffect(() => {
         fetch('http://localhost:5000/products')
-        .then(res => res.json())
-        .then(res => setProducts(res))
-    },[])
+            .then(res => res.json())
+            .then(res => setProducts({ res }))
+    }, [])
 
     console.log(products);
 
@@ -38,9 +37,9 @@ const LampsGalery = ({
                     
                 } */}
 
-                
-            
-            
+
+
+
 
 
         </main>

@@ -13,13 +13,14 @@
     margin: 5% auto;
 }
 
-.product-card-image-container img{
+.category-image{
     width: 100%;
 }
 
 .product-card-tittle{
     font-size: 1.2em;
     margin: auto 5%;
+    padding-bottom: 6%;
 }
 
 .product-card-description{
@@ -31,11 +32,6 @@
 }
 
 @media (min-width: 800px){
-
-
-    .adress{
-        padding: 0.8% 10%;
-    }
 
     main .product-card-container{
         width: 20%;

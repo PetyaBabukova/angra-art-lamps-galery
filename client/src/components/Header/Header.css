@@ -9,7 +9,6 @@ header{
     background-position: bottom;
 }
 
-
 .logo-container{
     width: 90%;
     margin: 30px auto;
@@ -54,24 +53,11 @@ header{
     border-radius: 5px;
 }
 
-/* .button{
-    border: 1px solid #008289;
-    border-radius: 5px;
-    background: #FFFBAB;
-    font-size: 1.2em;
-    color: #008289;
-    font-weight: bold;
-} */
-
 .search-button{
     width: 28%;
     padding: 10px 0;
 }
 
-.button:hover {
-box-shadow: 5px 4px 7px -2px #000000;
-cursor: pointer;
-}
 
 .main-nav ul{
     margin: 0;
@@ -81,6 +67,22 @@ cursor: pointer;
     align-items: center;
 }
 
+.main-nav ul li {
+    list-style: none;
+    font-size: 1.2em;
+    padding: 10px 0;
+    font-weight: bold;
+    color: #008289;
+    /* color: #EE2D6A; */
+    /* color: #ED2922; */
+    padding: 0.5em;
+  }
+
+  .main-nav ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
 
 #root > div > header > div.nav-container > nav > ul > li > a{
     list-style: none;

@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom';
 
 
 const ProductCard = ({ 
+        imageURL,
+        subcategory,
         id,
         name,
-        description,
-        imageURL,
-        category,
-        subcategory, 
         price
     }) => {
+
+        // console.log(subcategory);
     return (
         <Link className="product-card-container" to={`/products/details/${id}`}>
             <section >
@@ -18,7 +18,7 @@ const ProductCard = ({
                     <img alt="img" src={imageURL} />
                 </div>
                 <h3 className="product-card-tittle" >{name}</h3>
-                <p className="product-card-description">{description}</p>
+                {/* <p className="product-card-description">{description}</p> */}
                 <p className="product-card-price"> <strong>Цена:</strong> {price} лв</p>
             </section>
         </Link>

@@ -38,7 +38,7 @@ class LampsGalaryClassComponent extends Component {
 
         return (
             <main>
-                <LampsGaleryNavigation/>
+                {/* <LampsGaleryNavigation/> */}
 
                 {this.state.products.map(x =>
                     <ProductCard

@@ -1,60 +1,98 @@
 {
+  "subcategories": [
+    {
+      "id": "PVUSyic1",
+      "subcategory":  "football",
+      "subName": "Футбол",
+      "subcategoryURL": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2Ffootball%2Fking-football_58.jpg?alt=media&token=abecbe27-7c9d-4695-80c6-7c1ceade5c8a"
+    },
+    {
+      "id": "PVUSyic2",
+      "subcategory":  "movies",
+      "subName": "Филми",
+      "subcategoryURL": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2Fmovies%2Fdart-vader_58.jpg?alt=media&token=498728e7-2106-4c61-9221-d3b784039d06"
+    },
+    {
+      "id": "PVUSyic3",
+      "subcategory":  "harry-potter",
+      "subName": "Хари Потър",
+      "subcategoryURL": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2Fharry-potter%2Fharry-potter_58.jpg?alt=media&token=21a95bec-929a-4bca-a5e7-bdc65f04341b"
+    },
+    {
+      "id": "PVUSyic4",
+      "subcategory":  "feary-tale",
+      "subName": "Приказки",
+      "subcategoryURL": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2Ffeary-tales%2Fthe-beauty-and-the-beast_58.jpg?alt=media&token=b6464167-16ab-4c56-87d2-78eadda277fb"
+    },
+    {
+      "id": "PVUSyic0",
+      "subcategory": "winterHolidays",
+      "subName": "Зимни празници",
+      "subcategoryURL": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2Fwinter-holydays%2Fwinter_cat-with-lights_58.jpg?alt=media&token=442d07c9-1060-4b4e-9c66-3bf163812252"
+    },
+    {
+      "id": "PVUSyic5",
+      "subcategory": "dreamcatcher",
+      "subName": "Капан за сънища",
+      "subcategoryURL": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2Fdream-catcher%2Fmoon_58.jpg?alt=media&token=52dacf06-3a4b-41bb-b0a8-0a1e437895cc"
+    },
+    {
+      "id": "PVUSyic6",
+      "subcategory": "literature",
+      "subName": "Литература",
+      "subcategoryURL": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2Fliterature%2Fpipi-1_58.jpg?alt=media&token=b1382b55-64e1-4021-bd39-3427b9558048"
+    }
+  ],
   "products": [
     {
-      "name": "Капан за сънища",
+      "name": "Луна",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia at eius maiores doloribus perspiciatis repudiandae maxime culpa corporis perferendis quos voluptate temporibus modi cum totam eaque ut porro adipisci saepe incidunt reprehenderit, voluptatem debitis possimus. Accusamus inventore illo, id quia, necessitatibus tempora error temporibus, ad asperiores maiores autem cumque sapiente.",
-      "imageURL": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2F198899813_356914929103086_3178002119390640418_n.jpg?alt=media&token=c7298ab5-73e4-4130-8751-c07a37131836",
-      "imageURL2": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2F199526271_356914882436424_931069591681937873_n.jpg?alt=media&token=9f033cd5-033d-4d29-944c-bd5304e1435f",
-      "imageURL3": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2F198337091_356915035769742_2747054565091838025_n.jpg?alt=media&token=e468f138-8f93-4bac-aa45-974c30f4a147",
-      "imageURL4": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2F198613040_356914982436414_5998640921970264831_n.jpg?alt=media&token=d6a3a2f8-de27-43d5-9dbc-5c4b690dd594",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2Fdream-catcher%2Fmoon_58.jpg?alt=media&token=52dacf06-3a4b-41bb-b0a8-0a1e437895cc",
       "category": "lamps",
-      "subcategory": "fantasy",
+      "subcategory": "dreamcatcher",
       "price": "55.00",
       "id": "Fh9RhTU"
     },
     {
-      "name": "Футбол",
-      "description": "Можем да изработим лампа и с вашият любим футболен отбор. Посочените изображения са информативни.",
-      "imageURL": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2F211531953_370454274415818_6381491426077079034_n.jpg?alt=media&token=200b9e19-b25f-4edf-b848-b40b43903535",
-      "imageURL2": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2F209995083_370455647749014_7383032498309927401_n.jpg?alt=media&token=e41feebf-35bd-455a-ad73-de06e29727e8",
-      "imageURL3": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2F213030830_372363157558263_8115066154442034848_n.jpg?alt=media&token=e3c31a90-8e6a-4d3e-b741-8e44d44eb2f7",
-      "imageURL4": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2F213015690_372363414224904_3386869105695314241_n.jpg?alt=media&token=98006810-f352-401d-a0b3-805886a20d11",
+      "name": "Цветя 2",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia at eius maiores doloribus perspiciatis repudiandae maxime culpa corporis perferendis quos voluptate temporibus modi cum totam eaque ut porro adipisci saepe incidunt reprehenderit, voluptatem debitis possimus. Accusamus inventore illo, id quia, necessitatibus tempora error temporibus, ad asperiores maiores autem cumque sapiente.",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2Fdream-catcher%2Fflowers-2_58.jpg?alt=media&token=b515c92d-969e-4351-a30d-f99f017ba14e",
       "category": "lamps",
-      "subcategory": "sport",
+      "subcategory": "dreamcatcher",
       "price": "55.00",
-      "id": "PVUSyic"
+      "id": "Fh9RhTU2"
+    },
+    {
+      "name": "Арсенал",
+      "description": "Можем да изработим лампа и с вашият любим футболен отбор. Посочените изображения са информативни.",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2Ffootball%2Farsenal_58.jpg?alt=media&token=fb7e3b17-d355-4bac-813b-6e00cae2b238",
+      "category": "lamps",
+      "subcategory": "football",
+      "price": "55.00",
+      "id": "PVUSyic12"
+    },
+    {
+      "name": "Ливърпул",
+      "description": "Можем да изработим лампа и с вашият любим футболен отбор. Посочените изображения са информативни.",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2Ffootball%2Fliverpool_58.jpg?alt=media&token=e16ae9f6-527a-4bd4-9ec6-7b628c736bda",
+      "category": "lamps",
+      "subcategory": "football",
+      "price": "55.00",
+      "id": "PVUSyic22"
     },
     {
       "name": "Хари Потър",
       "description": "Любимия на малки и големи Хари Потър, реализиран в красива лампа, плавно преливаща в меки тонове.",
-      "imageURL": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2F212010838_370452817749297_314530546207144515_n.jpg?alt=media&token=4922d551-040d-4675-a64b-d5d647d803e1",
-      "imageURL2": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2F161828912_303589427768970_4824536680207790293_n.jpg?alt=media&token=03c29e9b-8184-4ac0-a06d-63d116521390",
-      "imageURL3": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2F161978461_303589304435649_6506070724901830609_n.jpg?alt=media&token=8a78974a-0e65-43df-89e8-3a0ce6dbc720",
-      "imageURL4": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2F162274864_303589387768974_1934068908610733723_n.jpg?alt=media&token=763c029b-31be-4a51-b934-0cc1bf3d81a5",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2Fharry-potter%2Fharry-potter_58.jpg?alt=media&token=21a95bec-929a-4bca-a5e7-bdc65f04341b",
       "category": "lamps",
-      "subcategory": "fantasy",
+      "subcategory": "harryPotter",
       "price": "55",
       "id": "cakagP1"
     },
     {
-      "name": "Детски книги / приказки",
-      "description": "Любимата книга или приказка на вашето дете може да изгрее под формата на красива нощна лампа в меки, плавно преливащи се тонове. Изображенията са илюстративни, можем да изработим лампи, посветени на други, желани от вас литературни произведения.",
-      "imageURL": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2F210910005_370442424417003_1133567635588220934_n.jpg?alt=media&token=92e3b950-64e7-4184-a8cc-0e2545af411f",
-      "imageURL2": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2F187923752_343653493762563_3993428539920907569_n.jpg?alt=media&token=da7b9c47-3b20-4273-8795-2953c5523bdb",
-      "imageURL3": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2F195287875_351773972950515_8255578473278451089_n.jpg?alt=media&token=14cbcba3-114d-421b-8967-6b2dbfe77af3",
-      "imageURL4": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2F190725768_346694430125136_9107149020299247101_n.jpg?alt=media&token=9967516f-ee39-4f86-bc77-d083338a9c48",
-      "category": "lamps",
-      "subcategory": "literature",
-      "price": "55",
-      "id": "uluWtx9"
-    },
-    {
-      "name": "Междузвездни войни",
+      "name": "Междузвездни войни - Звездата на смъртта",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia at eius maiores doloribus perspiciatis repudiandae maxime culpa corporis perferendis quos voluptate temporibus modi cum totam eaque ut porro adipisci saepe incidunt reprehenderit, voluptatem debitis possimus. Accusamus inventore illo, id quia, necessitatibus tempora error temporibus, ad asperiores maiores autem cumque sapiente.",
-      "imageURL": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2F161770868_303711477756765_7861123925313809997_n.jpg?alt=media&token=55c94600-9622-4ff0-981f-594376a7b966",
-      "imageURL2": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2F161645096_303711691090077_5683566977773075341_n.jpg?alt=media&token=2362b8d0-3cdb-4b0e-8d69-81b666d2421c",
-      "imageURL3": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2F162040254_303711314423448_8509966156268034633_n.jpg?alt=media&token=55e3b48b-8a61-41df-85ff-1b14a7c893a6",
-      "imageURL4": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2F161643167_303711274423452_1588535137197972028_n.jpg?alt=media&token=35061d74-4b36-44fa-b666-fd77bdc55e87",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2Fmovies%2Fdeth-star_58.jpg?alt=media&token=659c72b2-5f29-48cd-870d-25a2f1417bad",
       "category": "lamps",
       "subcategory": "movies",
       "price": "55",
