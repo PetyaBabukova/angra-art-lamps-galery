@@ -3,53 +3,53 @@
     {
       "id": "PVUSyic1",
       "subcategory":  "football",
-      "subName": "Футбол",
+      "title": "Футбол",
       "subcategoryURL": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2Ffootball%2Fking-football_58.jpg?alt=media&token=abecbe27-7c9d-4695-80c6-7c1ceade5c8a"
     },
     {
       "id": "PVUSyic2",
       "subcategory":  "movies",
-      "subName": "Филми",
+      "title": "Филми",
       "subcategoryURL": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2Fmovies%2Fdart-vader_58.jpg?alt=media&token=498728e7-2106-4c61-9221-d3b784039d06"
     },
     {
       "id": "PVUSyic3",
       "subcategory":  "harry-potter",
-      "subName": "Хари Потър",
+      "title": "Хари Потър",
       "subcategoryURL": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2Fharry-potter%2Fharry-potter_58.jpg?alt=media&token=21a95bec-929a-4bca-a5e7-bdc65f04341b"
     },
     {
       "id": "PVUSyic4",
       "subcategory":  "feary-tale",
-      "subName": "Приказки",
+      "title": "Приказки",
       "subcategoryURL": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2Ffeary-tales%2Fthe-beauty-and-the-beast_58.jpg?alt=media&token=b6464167-16ab-4c56-87d2-78eadda277fb"
     },
     {
       "id": "PVUSyic0",
       "subcategory": "winterHolidays",
-      "subName": "Зимни празници",
+      "title": "Зимни празници",
       "subcategoryURL": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2Fwinter-holydays%2Fwinter_cat-with-lights_58.jpg?alt=media&token=442d07c9-1060-4b4e-9c66-3bf163812252"
     },
     {
       "id": "PVUSyic5",
       "subcategory": "dreamcatcher",
-      "subName": "Капан за сънища",
+      "title": "Капан за сънища",
       "subcategoryURL": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2Fdream-catcher%2Fmoon_58.jpg?alt=media&token=52dacf06-3a4b-41bb-b0a8-0a1e437895cc"
     },
     {
       "id": "PVUSyic6",
       "subcategory": "literature",
-      "subName": "Литература",
+      "title": "Литература",
       "subcategoryURL": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2Fliterature%2Fpipi-1_58.jpg?alt=media&token=b1382b55-64e1-4021-bd39-3427b9558048"
     }
   ],
   "products": [
     {
+      "subcategory": "dreamcatcher",
       "name": "Луна",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia at eius maiores doloribus perspiciatis repudiandae maxime culpa corporis perferendis quos voluptate temporibus modi cum totam eaque ut porro adipisci saepe incidunt reprehenderit, voluptatem debitis possimus. Accusamus inventore illo, id quia, necessitatibus tempora error temporibus, ad asperiores maiores autem cumque sapiente.",
       "imageURL": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2Fdream-catcher%2Fmoon_58.jpg?alt=media&token=52dacf06-3a4b-41bb-b0a8-0a1e437895cc",
       "category": "lamps",
-      "subcategory": "dreamcatcher",
       "price": "55.00",
       "id": "Fh9RhTU"
     },
@@ -88,6 +88,15 @@
       "subcategory": "harryPotter",
       "price": "55",
       "id": "cakagP1"
+    },
+    {
+      "name": "Хафълпаф",
+      "description": "Любимия на малки и големи Хари Потър, реализиран в красива лампа, плавно преливаща в меки тонове.",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2Fharry-potter%2FhufflePuff_58.jpg?alt=media&token=290e384c-018a-4c9e-8b94-ba832261a6b6",
+      "category": "lamps",
+      "subcategory": "harryPotter",
+      "price": "55",
+      "id": "cakagP123"
     },
     {
       "name": "Междузвездни войни - Звездата на смъртта",

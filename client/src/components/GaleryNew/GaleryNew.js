@@ -27,7 +27,8 @@ const GaleryNew = ({
             {subcategories.map(x => <CategoriesCardComponent
                 key={x.id}
                 id={x.id}
-                subcategory={x.subName}
+                subcategory={x.subcategory}
+                title={x.title}
                 imageURL={x.subcategoryURL}
             />)}
 

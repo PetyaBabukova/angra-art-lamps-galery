@@ -9,7 +9,7 @@ import CreateProduct from "./components/CreateProduct/CreateProduct";
 import Contacts from "./components/Contacts/Contacts";
 import AboutUs from "./components/AboutUs/AboutUs";
 // import  LampsGalery  from "./components/LampsGalery/LampsGalery";
-import LampsGalaryClassComponent from "./components/LampsGalery/LampsGalaryClassComponent";
+import SubcategoriesComponent from "./components/SubcategoriesComponent/SubcategoriesComponent";
 import GaleryNew from './components/GaleryNew/GaleryNew';
 import CategoriesCardComponent from './components/CategoriesCardComponent/CategoriesCardComponent';
 
@@ -20,7 +20,7 @@ function App() {
 			<Switch>
 				{/* <Route path="/" exact component={LampsGalaryClassComponent} /> */}
 				<Route path="/" exact component={GaleryNew} />
-				<Route path="/categories/:subcategory" component={LampsGalaryClassComponent} />
+				<Route path="/products/:subcategory" component={SubcategoriesComponent} />
 				{/* <Route path ="/products" component={LampsGalaryClassComponent} /> */}
 				<Route path="/products/details/:productId" exact component={Details} />
 				<Route path="/products/details/:productId/edit" component={EditProduct} />
