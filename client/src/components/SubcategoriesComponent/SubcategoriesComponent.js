@@ -1,10 +1,11 @@
 import './SubcategoriesComponent.css';
 
 import { useEffect, useState } from "react";
-import CategoriesCardComponent from "../CategoriesCardComponent/CategoriesCardComponent";
+import SubcategoryCardComponent from "../SubcategoryCardComponent/SubcategoryCardComponent";
 
 const SubcategoriesComponent = ({
     match,
+    price,
 }) => {
 
     // console.log(match.params);
@@ -24,20 +25,18 @@ const SubcategoriesComponent = ({
 
     return (
         <main>
-            {currentProducts.map(x => 
-            x.subcategory==searchedCategory ? <CategoriesCardComponent 
-            key={x.id}
-            id={x.id}
-            subcategory={x.subcategory}
-            title={x.name}
-            imageURL = {x.imageURL}
-            /> : ''
-            
-            
-            
+            {currentProducts.map(x =>
+                x.subcategory == searchedCategory ? <SubcategoryCardComponent
+                    key={x.id}
+                    id={x.id}
+                    subcategory={x.subcategory}
+                    title={x.name}
+                    imageURL={x.imageURL}
+                    price={x.price}
+                /> : ''
             
             )}
-            
+
 
         </main>
 
@@ -67,6 +66,6 @@ export default SubcategoriesComponent;
 //             title={x.title}
 //             imageURL={x.imageURL}
 //         />
-        
+
 //     }
 // }

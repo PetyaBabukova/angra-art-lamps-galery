@@ -20,6 +20,7 @@
 .product-card-tittle{
     font-size: 1.2em;
     margin: auto 5%;
+    padding-bottom: 6%;
 }
 
 .product-card-description{
@@ -28,6 +29,10 @@
 
 .product-card-price{
     margin: 2% 5% 5%;
+    width: 50%;
+    color: #008289;
+    margin-top: 0;
+
 }
 
 @media (min-width: 800px){

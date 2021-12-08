@@ -1,0 +1,44 @@
+.product-card-container{
+    border: 1px solid #008289;
+    width: 90%;
+    /* padding: 2%; */
+    margin: 0% auto 5%;
+    background: #FFFBAB;
+    text-decoration: none;
+    color: black;
+}
+
+.product-price{
+    
+}
+
+.product-card-image-container{
+    width: 90%;
+    margin: 5% auto;
+}
+
+.category-image{
+    width: 100%;
+}
+
+.product-card-tittle{
+    font-size: 1.2em;
+    margin: auto 5%;
+    padding-bottom: 6%;
+}
+
+.product-card-description{
+    margin: 0 5%;
+}
+
+.product-card-price{
+    margin: 2% 5% 5%;
+}
+
+@media (min-width: 800px){
+
+    main .product-card-container{
+        width: 20%;
+        margin: 1%;
+    }
+}
