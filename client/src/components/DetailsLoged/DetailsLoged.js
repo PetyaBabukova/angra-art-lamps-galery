@@ -1,10 +1,10 @@
-import './Details.css';
+import './DetailsLoged.css';
 import { useEffect, useState } from 'react';
 import { Link } from "react-router-dom";
 
 import * as productService from "../../services/productService";
 
-const Details = ({
+const DetailsLoged = ({
     match
 }) => {
 
@@ -32,8 +32,8 @@ const Details = ({
                     <p>{product.description}</p>
 
                     {/* <button className="button order-button" type="submit">Поръчай</button> */}
-                    <Link to="/contacts" className='main-nav-buttons'><button className="button order-button" type="submit">Поръчай</button></Link>
-                    {/* <Link to={`/products/details/${product.id}/edit`} className='main-nav-buttons'><button className="button order-button" type="submit">Редактирай</button></Link> */}
+                    {/* <Link to="/contacts" className='main-nav-buttons'><button className="button order-button" type="submit">Поръчай</button></Link> */}
+                    <button className="button order-button" type="submit" >Изтрий</button>
                     {/* <Link to="/contacts" className='main-nav-buttons'><button className="button order-button" type="submit">Изтрий</button></Link> */}
                 </div>
 
@@ -43,4 +43,4 @@ const Details = ({
     )
 };
 
-export default Details;
+export default DetailsLoged;

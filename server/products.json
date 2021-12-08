@@ -2,25 +2,25 @@
   "subcategories": [
     {
       "id": "PVUSyic1",
-      "subcategory":  "football",
+      "subcategory": "football",
       "title": "Футбол",
       "subcategoryURL": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2Ffootball%2Fking-football_58.jpg?alt=media&token=abecbe27-7c9d-4695-80c6-7c1ceade5c8a"
     },
     {
       "id": "PVUSyic2",
-      "subcategory":  "movies",
+      "subcategory": "movies",
       "title": "Филми",
       "subcategoryURL": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2Fmovies%2Fdart-vader_58.jpg?alt=media&token=498728e7-2106-4c61-9221-d3b784039d06"
     },
     {
       "id": "PVUSyic3",
-      "subcategory":  "harry-potter",
+      "subcategory": "harry-potter",
       "title": "Хари Потър",
       "subcategoryURL": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2Fharry-potter%2Fharry-potter_58.jpg?alt=media&token=21a95bec-929a-4bca-a5e7-bdc65f04341b"
     },
     {
       "id": "PVUSyic4",
-      "subcategory":  "feary-tale",
+      "subcategory": "feary-tale",
       "title": "Приказки",
       "subcategoryURL": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2Ffeary-tales%2Fthe-beauty-and-the-beast_58.jpg?alt=media&token=b6464167-16ab-4c56-87d2-78eadda277fb"
     },
@@ -106,6 +106,15 @@
       "subcategory": "movies",
       "price": "55",
       "id": "pGGjlIk"
+    },
+    {
+      "name": "Малката русалка",
+      "description": "Ала бала ",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2Ffeary-tales%2Flitle-marmaid_50.jpg?alt=media&token=0e0382c8-f716-4691-ab8a-e768b02680f5",
+      "category": "lamps",
+      "subcategory": "feary-tale",
+      "price": "50",
+      "id": "_xTAUlB"
     }
   ]
 }

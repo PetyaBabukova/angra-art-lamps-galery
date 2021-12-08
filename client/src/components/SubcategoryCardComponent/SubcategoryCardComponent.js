@@ -5,6 +5,7 @@ import './SubcategoryCardComponent.css';
 const SubcategoryCardComponent = ({
     subcategory,
     title,
+    id,
     imageURL,
     price,
     key
@@ -12,7 +13,7 @@ const SubcategoryCardComponent = ({
 
 
     return (
-        <Link className="product-card-container" to={`/products/${subcategory}`}>
+        <Link className="product-card-container" to={`/products/${subcategory}/${id}`}>
             {/* <section > */}
                 <div className="product-card-image-container">
                     <img className="category-image" alt="img" src={imageURL} />

@@ -11,28 +11,24 @@ import AboutUs from "./components/AboutUs/AboutUs";
 // import  LampsGalery  from "./components/LampsGalery/LampsGalery";
 import SubcategoriesComponent from "./components/SubcategoriesComponent/SubcategoriesComponent";
 import GaleryNew from './components/GaleryNew/GaleryNew';
-import CategoriesCardComponent from './components/CategoriesCardComponent/CategoriesCardComponent';
+import DetailsLoged from './components/DetailsLoged/DetailsLoged';
+// import CategoriesCardComponent from './components/CategoriesCardComponent/CategoriesCardComponent';
 
 function App() {
 	return (
 		<div className="App">
 			<Header></Header>
 			<Switch>
-				{/* <Route path="/" exact component={LampsGalaryClassComponent} /> */}
 				<Route path="/" exact component={GaleryNew} />
-				<Route path="/products/:subcategory" component={SubcategoriesComponent} />
-				{/* <Route path ="/products" component={LampsGalaryClassComponent} /> */}
-				<Route path="/products/details/:productId" exact component={Details} />
-				<Route path="/products/details/:productId/edit" component={EditProduct} />
-				<Route path="/tanyacreate" component={CreateProduct}/>
+				<Route path="/products/:subcategory" exact component={SubcategoriesComponent} />
+				<Route path="/products/:subcategory/:productId"  component={Details} />
+				{/* <Route path="/products/details/:productId/edit" component={EditProduct} /> */}
+				<Route path="/tanyacreate" exact  component={CreateProduct}/>
+				<Route path="/tanyacreate/:productId" component={DetailsLoged}/>
 				<Route path="/contacts" component={Contacts} />
 				<Route path="/about-us" component={AboutUs} />
 				{/* <Route path="/galery" component = {CategoriesCardComponent} /> */}
 			</Switch>
-
-			{/* <Route path ="/" exact component={LampsGalery} />
-			<Route path ="/lamps" component={LampsGalery} />
-			<Route path ="/lamps/:subcategory" component={LampsGalery} /> */}
 			<Footer></Footer>
 			{/* <style jsx></style> */}
 		</div>

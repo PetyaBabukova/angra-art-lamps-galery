@@ -10,22 +10,19 @@ export const getAll = (subcategory = '') => {
         .catch(error => console.log(error))
 }
 
-export const getOne = (productId) => {
+export const getOne = (productId, subcategory ) => {
 
     return fetch(`${url}/${productId}`)
         .then(res => res.json())
         .catch(err => console.log(err))
 }
 
-export const create = (productName, description, imageURL, imageURL2, imageURL3, imageURL4, category, subcategory, price) => {
+export const create = (productName, description, imageURL, category, subcategory, price) => {
 
     let product = {
         name: productName, 
         description, 
         imageURL, 
-        imageURL2, 
-        imageURL3, 
-        imageURL4, 
         category, 
         subcategory, 
         price
@@ -39,3 +36,4 @@ export const create = (productName, description, imageURL, imageURL2, imageURL3,
         body: JSON.stringify(product)
     });
 };
+
