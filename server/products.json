@@ -106,15 +106,6 @@
       "subcategory": "movies",
       "price": "55",
       "id": "pGGjlIk"
-    },
-    {
-      "name": "Малката русалка",
-      "description": "Ала бала ",
-      "imageURL": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2Ffeary-tales%2Flitle-marmaid_50.jpg?alt=media&token=0e0382c8-f716-4691-ab8a-e768b02680f5",
-      "category": "lamps",
-      "subcategory": "feary-tale",
-      "price": "50",
-      "id": "_xTAUlB"
     }
   ]
 }

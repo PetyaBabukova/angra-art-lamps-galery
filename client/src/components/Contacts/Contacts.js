@@ -11,7 +11,7 @@ const Contacts = () => {
                 <p className="adress">ул. Неофит Рилски 37Б (входът е откъм двора)</p>
                 <p className="adress">тел.: +359 2 988 09 21</p>
                 <p className="adress">мобилен: 0884 127 002</p>
-                <p className="adress">e-mail: angra@abv.bg, angra@angra-bg.com</p>
+                <p className="adress">e-mail: angra_art@abv.bg</p>
                 <p className="adress">facebook: Ангра Арт</p>
 
                 <br></br>

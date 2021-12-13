@@ -5,7 +5,8 @@ import { Link } from "react-router-dom";
 import * as productService from "../../services/productService";
 
 const DetailsLoged = ({
-    match
+    match,
+    history
 }) => {
 
     let [product, setProduct] = useState({})
@@ -14,6 +15,18 @@ const DetailsLoged = ({
         productService.getOne(match.params.productId, match.params.subcategory)
             .then(res => setProduct(res))
     }, [match])
+
+    const id = match.params.productId;
+
+    const deleteHandler = (e) => {
+
+        e.preventDefault();
+
+        productService.deleteProduct(id)
+        .then(() => {
+            history.push('/')
+        })
+    }
 
 
     return (
@@ -33,7 +46,9 @@ const DetailsLoged = ({
 
                     {/* <button className="button order-button" type="submit">Поръчай</button> */}
                     {/* <Link to="/contacts" className='main-nav-buttons'><button className="button order-button" type="submit">Поръчай</button></Link> */}
-                    <button className="button order-button" type="submit" >Изтрий</button>
+                    <form onSubmit={deleteHandler}>
+                        <input className="button submit-button delete" type="submit" value="Изтрий" />
+                    </form>
                     {/* <Link to="/contacts" className='main-nav-buttons'><button className="button order-button" type="submit">Изтрий</button></Link> */}
                 </div>
 

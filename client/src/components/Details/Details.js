@@ -32,7 +32,7 @@ const Details = ({
                     <p>{product.description}</p>
 
                     {/* <button className="button order-button" type="submit">Поръчай</button> */}
-                    <Link to="/contacts" className='main-nav-buttons'><button className="button order-button" type="submit">Поръчай</button></Link>
+                    {/* <Link to="/contacts" className='main-nav-buttons'><button className="button order-button" type="submit">За контакт и поръчки</button></Link> */}
                     {/* <Link to={`/products/details/${product.id}/edit`} className='main-nav-buttons'><button className="button order-button" type="submit">Редактирай</button></Link> */}
                     {/* <Link to="/contacts" className='main-nav-buttons'><button className="button order-button" type="submit">Изтрий</button></Link> */}
                 </div>

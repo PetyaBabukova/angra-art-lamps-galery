@@ -37,3 +37,9 @@ export const create = (productName, description, imageURL, category, subcategory
     });
 };
 
+export const deleteProduct = (id) => {
+    return fetch(`http://localhost:5000/products/${id}`, {
+        method: 'DELETE'
+    })
+    
+}
