@@ -40,7 +40,7 @@
       "id": "PVUSyic6",
       "subcategory": "literature",
       "title": "Литература",
-      "subcategoryURL": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2Fliterature%2Fpipi-1_58.jpg?alt=media&token=b1382b55-64e1-4021-bd39-3427b9558048"
+      "subcategoryURL": "https://firebasestorage.googleapis.com/v0/b/tanyaart-db.appspot.com/o/lamps%2Fliterature%2Fpipi-3_58.jpg?alt=media&token=dc528316-dd6b-4b38-aa34-4caa4f4c3756"
     }
   ],
   "products": [
@@ -106,6 +106,15 @@
       "subcategory": "movies",
       "price": "55",
       "id": "pGGjlIk"
+    },
+    {
+      "name": "Капан за сънища \"Цветя\"",
+      "description": "",
+      "imageURL": "",
+      "category": "lamps",
+      "subcategory": "dreamcatcher",
+      "price": "25",
+      "id": "x3wloVV"
     }
   ]
 }

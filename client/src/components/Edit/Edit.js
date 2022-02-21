@@ -1,17 +1,26 @@
-import './CreateProduct.css';
+import './Edit.css';
+import { useEffect, useState } from "react";
 import * as productService from "../../services/productService";
 
-
-const CreateProduct = ({
-    history
+const Edit = ({
+    history,
+    match
 }) => {
 
-    const onCreateproductSubmitHandler = (e) => {
+    let [product, setProduct] = useState({})
+
+    useEffect(() => {
+        productService.getOne(match.params.productId, match.params.subcategory)
+            .then(res => setProduct(res))
+    }, [match])
+
+
+    const onEditSubmitHandler = (e) => {
         e.preventDefault();
 
-        const { name, description, imageURL, category, subcategory, price } = e.target
+        const {product, name, description, imageURL, category, subcategory, price,  } = e.target
 
-        productService.create(name.value, description.value, imageURL.value, category.value, subcategory.value, price.value)
+        productService.edit(name.value, description.value, imageURL.value, category.value, subcategory.value, price.value, match.params.productId)
             .then(() => {
                 history.push('/')
             })
@@ -21,9 +30,10 @@ const CreateProduct = ({
 
     }
 
+
     return (
         <main>
-            <form className="form input-form" onSubmit={onCreateproductSubmitHandler}>
+            <form className="form input-form" onSubmit={onEditSubmitHandler}>
                 {/* <input type="text" name="category" id="category" size="50" placeholder="Въведи категория" /> */}
                 <div className="selectForm">
                     <label htmlFor="category" className="label-for-select"><strong>Категория</strong></label>
@@ -57,15 +67,13 @@ const CreateProduct = ({
                 <textarea name="description" id="description" cols="38" rows="10" placeholder="Описание" maxLength="500" />
                 <input type="number" name="price" id="price" size="50" placeholder="Цена" />
                 <div className="submit-buttons-container">
-                    <input className="button submit-button create" type="submit" value="Запиши" />
+                    <input className="button submit-button create" type="submit" value="Редактирай" />
                     {/* <input className="button submit-button edit" type="submit" value="Редактирай" />
                     <input className="button submit-button delete" type="submit" value="Изтрий" /> */}
                 </div>
-
             </form>
-
         </main>
     )
 };
 
-export default CreateProduct;
+export default Edit;

@@ -12,6 +12,7 @@ import AboutUs from "./components/AboutUs/AboutUs";
 import SubcategoriesComponent from "./components/SubcategoriesComponent/SubcategoriesComponent";
 import GaleryNew from './components/GaleryNew/GaleryNew';
 import DetailsLoged from './components/DetailsLoged/DetailsLoged';
+import Edit from './components/Edit/Edit';
 // import CategoriesCardComponent from './components/CategoriesCardComponent/CategoriesCardComponent';
 
 function App() {
@@ -23,8 +24,9 @@ function App() {
 				<Route path="/products/:subcategory" exact component={SubcategoriesComponent} />
 				<Route path="/products/:subcategory/:productId"  component={Details} />
 				{/* <Route path="/products/details/:productId/edit" component={EditProduct} /> */}
-				<Route path="/tanyacreate" exact  component={CreateProduct}/>
-				<Route path="/tanyacreate/:productId" component={DetailsLoged}/>
+				<Route path="/create" exact  component={CreateProduct}/>
+				<Route path="/delete/:productId" component={DetailsLoged}/>
+				{/* <Route path="/edit/:productId" component={Edit}/> */}
 				<Route path="/contacts" component={Contacts} />
 				<Route path="/about-us" component={AboutUs} />
 				{/* <Route path="/galery" component = {CategoriesCardComponent} /> */}

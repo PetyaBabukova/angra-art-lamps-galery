@@ -6,7 +6,7 @@ const CategoriesCardComponent = ({
     subcategory,
     title,
     imageURL,
-    key
+    
 }) => {
 
 
@@ -19,7 +19,6 @@ const CategoriesCardComponent = ({
                 <h3 className="product-card-tittle" > {title} </h3>
             {/* </section> */}
          </Link>
-
 
     )
 };

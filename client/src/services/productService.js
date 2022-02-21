@@ -10,7 +10,7 @@ export const getAll = (subcategory = '') => {
         .catch(error => console.log(error))
 }
 
-export const getOne = (productId, subcategory ) => {
+export const getOne = (productId, subcategory) => {
 
     return fetch(`${url}/${productId}`)
         .then(res => res.json())
@@ -20,18 +20,18 @@ export const getOne = (productId, subcategory ) => {
 export const create = (productName, description, imageURL, category, subcategory, price) => {
 
     let product = {
-        name: productName, 
-        description, 
-        imageURL, 
-        category, 
-        subcategory, 
+        name: productName,
+        description,
+        imageURL,
+        category,
+        subcategory,
         price
     }
 
     return fetch(url, {
         method: 'POST',
         headers: {
-            'Content-Type' : 'application/json',
+            'Content-Type': 'application/json',
         },
         body: JSON.stringify(product)
     });
@@ -41,5 +41,37 @@ export const deleteProduct = (id) => {
     return fetch(`http://localhost:5000/products/${id}`, {
         method: 'DELETE'
     })
+
+}
+
+export const edit = (productName, description, imageURL, category, subcategory, price, id) => {
     
+    let product = {
+        name: productName,
+        description,
+        imageURL,
+        category,
+        subcategory,
+        price
+    }
+
+    return fetch(`http://localhost:5000/products/${id}`, {
+        method: 'PATCH',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(product)
+    });
+}
+
+export const update = (product, productId) => {
+fetch( `http://localhost:5000/products/${productId}`, {
+    method: 'PATCH',
+    headers: {
+        'Content-Type' : 'application/json',
+    },
+    body: JSON.stringify(product)
+}
+
+)
 }
